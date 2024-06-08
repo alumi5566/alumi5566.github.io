@@ -527,6 +527,10 @@ section {
   border: 2px solid #1f5297;
 }
 
+.resume-item .accolade-text {
+    margin-left: 20px;
+    display: inline-block
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -696,11 +700,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.services, .resume-item .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.services, .resume-item .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -713,17 +717,17 @@ section {
   border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.services, .resume-item .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
 
-.services .icon-box:hover .icon {
+.services, .resume-item .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.services, .resume-item .icon-box:hover .icon i {
   color: #149ddd;
 }
 
